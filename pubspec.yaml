@@ -1,0 +1,39 @@
+name: cars_app_ui
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  flutter_state_notifier: ^1.0.0
+  freezed_annotation: ^2.4.1
+  dio: ^5.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/1.jpeg
+    - assets/2.jpeg
+    - assets/3.jpeg
+    - assets/4.jpeg
+    - assets/5.jpeg
+    - assets/6.jpeg
+    - assets/7.jpeg
+    - assets/8.jpeg
+    - assets/9.jpeg
+    - assets/10.jpeg
